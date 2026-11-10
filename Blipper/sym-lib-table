@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Blipper")(type "KiCad")(uri "${KIPRJMOD}/Library/Blipper.kicad_sym")(options "")(descr "Blipper project symbols"))
+)

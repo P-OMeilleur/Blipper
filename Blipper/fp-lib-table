@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Blipper")(type "KiCad")(uri "${KIPRJMOD}/Library/Blipper.pretty")(options "")(descr "Blipper project footprints"))
+)

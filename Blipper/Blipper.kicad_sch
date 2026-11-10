@@ -1,0 +1,90 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "757defb4-9b09-4a38-87ce-422aa8150480")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 101.6 63.5)
+		(size 35.56 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "8a77c13d-f62c-44e1-9529-2db2c5f5f63a")
+		(property "Sheetname" "MCU"
+			(at 101.6 62.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 101.6 89.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SWDIO" bidirectional
+			(at 137.16 68.58 0)
+			(uuid "5a9419b2-0e81-4b3c-95b8-7d73b80cdd97")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SWDCLK" input
+			(at 137.16 73.66 0)
+			(uuid "358a3c06-e6b9-418a-9358-a5ee5612fb4a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{RESET}" input
+			(at 137.16 78.74 0)
+			(uuid "fed197b6-bb4c-42ef-a913-e2c8cf24b09d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Blipper"
+				(path "/757defb4-9b09-4a38-87ce-422aa8150480"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
