@@ -1,14 +1,28 @@
 Designator,Qty,Value,Package,Role,Required,LCSC,Manufacturer,MPN,Unit price USD (first break),LCSC stock (2026-11-10),JLCPCB class,Spec check
+U1,1,nRF52832-QFAA-R,QFN-48-EP(6x6),"MCU + 2.4 GHz radio (ANT/BLE)",Yes,C77540,Nordic,NRF52832-QFAA-R,3.6925 (1+),"19,435",Extended,-
+SW1,1,Tactile switch SPST 5N IP67,SMD 5.4x5.3,User button (BTN_WAKE),Yes,C726003,ALPSALPINE,SKSUBBE010,0.5385 (1+),-,Extended,-
 "C1, C2",2,12 pF C0G 2% 50V,0402,32 MHz crystal load capacitors,Yes,C161527,Murata,GRM1555C1H120GA01D,0.0157 (50+),"33,550",Extended,Nordic QFN Table 1: 12 pF NP0 +/-2%
 C3,1,0.8 pF C0G +/-0.05pF 50V,0402,RF matching network (ANT to GND),Yes,C88902,Murata,GJM1555C1HR80WB01D,0.0404 (20+),"199,260",Extended,Nordic QFN Table 1: 0.8 pF NP0 +/-5%
 L1,1,3.9 nH,0402,RF matching network (ANT to RF),Yes,C77109,Murata,LQG15HS3N9S02D,0.0177 (50+),"23,850",Extended,Nordic QFN Table 1: 3.9 nH HF inductor +/-5%
+AE1,1,2.4 GHz zero-clearance chip antenna,5.0x2.0x1.5 mm,Antenna (board edge above GND plane; PCB 0.5-1.0 mm),Yes,C17605137,Johanson,2450AT42E0100001E,0.8615 (1+),"764",Extended,"Pin 2 floating, pins 3/4 GND"
+L5,1,1.5 nH,0402,Antenna match - series (Johanson eval value; re-tune),Yes,C77106,Murata,LQG15HS1N5S02D,0.0249 (1+),"46,274",Extended,Tune on the real board
+L4,1,3.3 nH,0402,Antenna match - shunt (Johanson eval value; re-tune),Yes,C86064,Murata,LQG15HS3N3S02D,0.0155 (50+),"12,357",Extended,Tune on the real board
+C15,1,2.0 pF C0G 50V,0402,Antenna match - shunt (Johanson eval value; re-tune),Yes,C161316,Murata,GJM1555C1H2R0BB01D,0.0260 (1+),"250,464",Extended,Tune on the real board
+C16,1,DNP,0402,Antenna match - spare shunt at antenna side (pi slot),No (DNP),-,-,-,-,-,-,Footprint only
 "C4, C5, C10",3,100 nF X7R 10% 16V,0402,"DEC1 and VDD decoupling (VDD has 3 pins: 13, 36, 48)",Yes,C1525,Samsung,CL05B104KO5NNNC,0.0032 (100+),"1,504,300",Basic,Nordic QFN Table 1: 100 nF X7R +/-10%
 C6,1,DNP (100 pF),0402,DEC2 - footprint only (Nordic: not mounted),No (DNP),C1546,FH,0402CG101J500NT,-,-,Basic,Nordic QFN Table 1: N.C.
 C7,1,100 pF C0G 5% 50V,0402,DEC3 decoupling,Yes,C1546,FH,0402CG101J500NT,0.0030 (100+),"1,409,800",Basic,Nordic QFN Table 1: 100 pF NP0 +/-5%
 C8,1,4.7 uF X5R 10% 16V,0603,VDD bulk decoupling,Yes,C19666,Samsung,CL10A475KO8NNNC,0.0151 (10+),"764,740",Basic,Nordic QFN Table 1: 4.7 uF X5R +/-10%
 C9,1,1.0 uF X7R 10% 25V,0603,DEC4 decoupling,Yes,C29936,Samsung,CL10B105KA8NNNC,0.0126 (10+),"3,152,320",Extended,Nordic QFN Table 1: 1.0 uF X7R +/-10% 0603
 Y1,1,32 MHz 8 pF 10ppm 40 ohm,SMD2016,32 MHz crystal,Yes,C5339095,Yajingxin,TX201632M4BBCE2T,0.0818 (5+),"29,020",Extended,"Nordic: 2016, CL 8 pF, +/-40 ppm total"
+C11,1,100 nF X7R 10% 16V,0402,SW1 debounce (BTN_WAKE to GND),Yes,C1525,Samsung,CL05B104KO5NNNC,0.0032 (100+),"1,504,300",Basic,"Release tau 11 ms, press tau 0.9 ms"
+R1,1,100 kOhm 1% 62.5mW,0402,SW1 pull-up (BTN_WAKE to VDD),Yes,C25741,UNI-ROYAL,0402WGF1003TCE,0.0012 (100+),"1,194,400",Basic,27 uA while pressed at 3 V
+R2,1,10 kOhm 1% 62.5mW,0402,SW1 series resistor (limits cap discharge),Yes,C25744,UNI-ROYAL,0402WGF1002TCE,0.0010 (100+),"177,300",Basic,Pressed level = 0.09 x VDD
+L2,1,10 uH 20%,0603,DC/DC converter (DCC -> L3 -> L2 -> DEC4),Yes,C76798,TDK,MLZ1608M100WT000,0.0537 (10+),"96,060",Extended,Nordic: 10 uH IDC >= 50 mA +/-20%
+L3,1,15 nH 5%,0402,DC/DC converter (at DCC pin 47),Yes,C395049,FH,VHF100505HQ15NJT,0.0053 (100+),"283,800",Extended,Nordic: 15 nH HF inductor +/-10%
+BT1,1,CR2032 clip,SMD 25.9x9x3.75,Coin-cell clip (+ strap; - is a 12 mm PCB pad),Yes,C2902340,MYOUNG,MY-2032-16,0.1079 (5+),"40,655",Extended,"Use ENIG finish for the - pad; Q1 protects if the cell is flipped"
+Q1,1,P-MOSFET 30V 4A,SOT-23,Reverse-polarity protection (BT1+ to VDD_nRF; gate to GND),Yes,C15127,AOS,AO3401A,0.0821 (5+),"1,151,380",Basic,"Vgs(th) 0.9 V, 85 mOhm at -2.5 V"
+C12,1,22 uF X5R 20% 6.3V,0603,Coin-cell bulk (TX burst current),Yes,C59461,Samsung,CL10A226MQ8NRNC,0.0223 (20+),"3,805,540",Basic,Place at BT1
+-,1,CR2032 cell,-,Battery (fitted by hand; not assembled),Yes,-,any,CR2032,-,-,-,3.0 V 220 mAh lithium coin cell
 X2,1,32.768 kHz 9 pF 20ppm,SMD2012,Low-frequency crystal (internal RC can replace it),Optional,C96341,Epson,X1A0000610008,0.2511 (5+),"12,105",Extended,"Nordic QFN uses a 3215 crystal, CL 9 pF; any 9 pF 32.768 kHz part works"
-"C11, C12",2,12 pF C0G 2% 50V,0402,32.768 kHz crystal load capacitors (only with X2),Optional,C161527,Murata,GRM1555C1H120GA01D,0.0157 (50+),"33,550",Extended,Nordic: 12 pF NP0 +/-2%
-L2,1,10 uH 20%,0603,DC/DC converter (only with DC/DC),Optional,C76798,TDK,MLZ1608M100WT000,0.0537 (10+),"96,060",Extended,Nordic: 10 uH IDC >= 50 mA +/-20%
-L3,1,15 nH 5%,0402,DC/DC converter (only with DC/DC),Optional,C395049,FH,VHF100505HQ15NJT,0.0053 (100+),"283,800",Extended,Nordic: 15 nH HF inductor +/-10%
+"C13, C14",2,12 pF C0G 2% 50V,0402,32.768 kHz crystal load capacitors (only with X2),Optional,C161527,Murata,GRM1555C1H120GA01D,0.0157 (50+),"33,550",Extended,Nordic: 12 pF NP0 +/-2%

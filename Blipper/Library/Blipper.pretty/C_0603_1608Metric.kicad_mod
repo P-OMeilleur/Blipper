@@ -6,7 +6,7 @@
 	(descr "Capacitor SMD 0603 (1608 Metric), IPC-7351 nominal")
 	(tags "capacitor 0603")
 	(property "Reference" "REF**" (at 0 -1.43 0) (layer "F.SilkS") (uuid "ade36ccc-e42e-4353-8aee-200247cc9460")
-		(effects (font (size 0.8 0.8) (thickness 0.12))))
+		(effects (font (size 1 1) (thickness 0.15))))
 	(property "Value" "C_0603_1608Metric" (at 0 1.43 0) (layer "F.Fab") (uuid "7d808107-7fee-417f-a33a-7bd4e3f1d027")
 		(effects (font (size 0.8 0.8) (thickness 0.12))))
 	(property "Datasheet" "" (at 0 0 0) (layer "F.Fab") (hide yes) (uuid "c9e4cb85-7d36-4af6-9506-2454ee6e3064")

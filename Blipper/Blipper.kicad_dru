@@ -1,0 +1,32 @@
+(version 1)
+# JLCPCB standard (no-surcharge) rules: 2-layer FR4, 1 oz copper, green mask, routed outline.
+# Source: jlcpcb.com/capabilities/pcb-capabilities (checked 2026-11-11).
+# Global minimums (track/space 0.10, via 0.30/0.45, hole-to-hole 0.20, edge 0.20,
+# silk 0.15 / 1.0 mm text) are set in Board Setup > Constraints; the rules below add
+# the limits KiCad can't express there.
+
+# Via-sized pad holes (<= 0.35 mm, e.g. U1 exposed-pad vias) follow the via rule instead.
+(rule "JLC PTH pad annular ring 0.18"
+	(constraint annular_width (min 0.18mm))
+	(condition "A.Type == 'Pad' && A.isPlated() && A.Hole_Size_X > 0.35mm"))
+
+(rule "JLC pad hole to pad hole 0.45"
+	(constraint hole_to_hole (min 0.45mm))
+	(condition "A.Type == 'Pad' && B.Type == 'Pad'"))
+
+(rule "JLC PTH hole to copper 0.28"
+	(constraint hole_clearance (min 0.28mm))
+	(condition "A.Type == 'Pad' && A.isPlated()"))
+
+(rule "JLC NPTH min 0.50"
+	(constraint hole_size (min 0.5mm))
+	(condition "A.Type == 'Pad' && !A.isPlated()"))
+
+(rule "JLC SMD pad to pad 0.15 (different nets)"
+	(constraint clearance (min 0.15mm))
+	(condition "A.Type == 'Pad' && B.Type == 'Pad' && A.Pad_Type == 'SMD' && B.Pad_Type == 'SMD' && A.Net != B.Net"))
+
+(rule "JLC via hole 0.30 / diameter 0.45 (no extra cost)"
+	(constraint hole_size (min 0.3mm))
+	(constraint via_diameter (min 0.45mm))
+	(condition "A.Type == 'Via'"))

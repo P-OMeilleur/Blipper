@@ -6,7 +6,7 @@
 	(descr "Crystal SMD 2012 2-pad, Epson FC-12M recommended footprint, no copper between pads")
 	(tags "crystal 2012 32.768kHz FC-12M")
 	(property "Reference" "REF**" (at 0 -1.65 0) (layer "F.SilkS") (uuid "95619e67-efc8-48c3-a3e7-fbe4eca8cd6e")
-		(effects (font (size 0.8 0.8) (thickness 0.12))))
+		(effects (font (size 1 1) (thickness 0.15))))
 	(property "Value" "Crystal_SMD_2012-2Pin_Epson_FC-12M" (at 0 1.65 0) (layer "F.Fab") (uuid "f5b02f73-0385-4039-bc4c-c56d8b8b8f6c")
 		(effects (font (size 0.8 0.8) (thickness 0.12))))
 	(property "Datasheet" "" (at 0 0 0) (layer "F.Fab") (hide yes) (uuid "d98be12b-6209-4dab-aeea-6a9d5c58d98b")

@@ -6,7 +6,7 @@
 	(descr "Crystal SMD 2016 4-pad, Yajingxin TX2016 recommended land pattern")
 	(tags "crystal 2016 4pin")
 	(property "Reference" "REF**" (at 0 -1.9 0) (layer "F.SilkS") (uuid "b8434610-fdec-46a6-9112-cfd39a77609f")
-		(effects (font (size 0.8 0.8) (thickness 0.12))))
+		(effects (font (size 1 1) (thickness 0.15))))
 	(property "Value" "Crystal_SMD_2016-4Pin_2.0x1.6mm" (at 0 1.9 0) (layer "F.Fab") (uuid "45a9f2d1-97f2-463a-a6bc-1b6aa3d71f33")
 		(effects (font (size 0.8 0.8) (thickness 0.12))))
 	(property "Datasheet" "" (at 0 0 0) (layer "F.Fab") (hide yes) (uuid "2190930a-8a50-4b6f-991d-861a918301f6")

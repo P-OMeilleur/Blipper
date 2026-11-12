@@ -6,7 +6,7 @@
 	(descr "Inductor SMD 0603 (1608 Metric), IPC-7351 nominal")
 	(tags "inductor 0603")
 	(property "Reference" "REF**" (at 0 -1.43 0) (layer "F.SilkS") (uuid "552dbbd3-5469-4b29-8d5a-285a33e27bfe")
-		(effects (font (size 0.8 0.8) (thickness 0.12))))
+		(effects (font (size 1 1) (thickness 0.15))))
 	(property "Value" "L_0603_1608Metric" (at 0 1.43 0) (layer "F.Fab") (uuid "125c18a2-c5a1-418e-9416-535bc99c1de9")
 		(effects (font (size 0.8 0.8) (thickness 0.12))))
 	(property "Datasheet" "" (at 0 0 0) (layer "F.Fab") (hide yes) (uuid "05cc6053-bfdc-444f-826e-27f30a7e88d1")

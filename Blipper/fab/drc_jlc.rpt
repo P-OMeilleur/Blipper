@@ -1,0 +1,435 @@
+** Drc report for Blipper.kicad_pcb **
+** Created on 2026-11-11T22:44:31 **
+** Report includes: Errors, Warnings **
+
+** Found 99 DRC violations **
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1400 mm)
+    Rule: netclass 'Default'; error
+    @(135.5000 mm, 73.8232 mm): Track [/MCU/BTN_WAKE] on F.Cu, length 1.0367 mm
+    @(134.9800 mm, 73.5000 mm): Pad 2 [GND] of C10 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1371 mm)
+    Rule: netclass 'Default'; error
+    @(134.8342 mm, 74.4891 mm): Track [/MCU/BTN_WAKE] on F.Cu, length 0.9416 mm
+    @(134.9800 mm, 73.5000 mm): Pad 2 [GND] of C10 on F.Cu
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(130.7750 mm, 69.2250 mm): PTH pad 49 [GND] of U1
+    @(130.0000 mm, 70.0000 mm): Footprint BT1
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.0000 mm)
+    Rule: board setup constraints edge; error
+    @(130.0000 mm, 70.0000 mm): Circle on Edge.Cuts
+    @(121.9036 mm, 78.0964 mm): Pad 1 [Net-(BT1-+)] of BT1 on B.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.0000 mm)
+    Rule: board setup constraints edge; error
+    @(130.0000 mm, 70.0000 mm): Circle on Edge.Cuts
+    @(138.0964 mm, 61.9036 mm): Pad 1 [Net-(BT1-+)] of BT1 on B.Cu
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(134.5000 mm, 75.6687 mm): Reference field of C11
+    @(134.3542 mm, 76.6668 mm): Reference field of R2
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(134.5000 mm, 75.6687 mm): Reference field of C11
+    @(134.8905 mm, 75.3268 mm): Reference field of C12
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(134.5000 mm, 75.6687 mm): Reference field of C11
+    @(134.4612 mm, 75.8568 mm): Segment of R2 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(134.5000 mm, 75.6687 mm): Reference field of C11
+    @(134.4612 mm, 75.1368 mm): Segment of R2 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(134.4612 mm, 75.8568 mm): Segment of R2 on F.Silkscreen
+    @(134.8905 mm, 75.3268 mm): Reference field of C12
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(134.5000 mm, 75.6687 mm): Reference field of C11
+    @(134.7505 mm, 76.2468 mm): Segment of C12 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(134.7505 mm, 76.2468 mm): Segment of C12 on F.Silkscreen
+    @(134.3542 mm, 76.6668 mm): Reference field of R2
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(133.6000 mm, 79.0000 mm): Reference field of SW1
+    @(133.4400 mm, 79.5000 mm): Segment of Q1 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(133.6000 mm, 79.0000 mm): Reference field of SW1
+    @(133.4400 mm, 79.5000 mm): Segment of Q1 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(133.6000 mm, 79.0000 mm): Reference field of SW1
+    @(133.4400 mm, 80.2600 mm): Segment of Q1 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(130.0979 mm, 63.6700 mm): Reference field of C15
+    @(130.1000 mm, 62.6700 mm): Reference field of L4
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(130.0979 mm, 63.6700 mm): Reference field of C15
+    @(130.2085 mm, 63.8930 mm): Segment of L1 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(131.7385 mm, 64.0000 mm): Reference field of L1
+    @(130.0979 mm, 63.6700 mm): Reference field of C15
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(130.9285 mm, 63.8930 mm): Segment of L1 on F.Silkscreen
+    @(130.0979 mm, 63.6700 mm): Reference field of C15
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(130.2049 mm, 62.8600 mm): Segment of C15 on F.Silkscreen
+    @(130.1000 mm, 62.6700 mm): Reference field of L4
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(130.1000 mm, 62.6700 mm): Reference field of L4
+    @(129.8700 mm, 61.0000 mm): Reference field of C16
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(130.2049 mm, 62.1400 mm): Segment of C15 on F.Silkscreen
+    @(129.8700 mm, 61.0000 mm): Reference field of C16
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(130.0000 mm, 61.0225 mm): Reference field of AE1
+    @(129.0600 mm, 60.8930 mm): Segment of C16 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(130.0000 mm, 61.0225 mm): Reference field of AE1
+    @(129.8700 mm, 61.0000 mm): Reference field of C16
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(130.1000 mm, 59.3300 mm): Reference field of L5
+    @(129.8700 mm, 61.0000 mm): Reference field of C16
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(127.4591 mm, 63.4400 mm): Segment of C7 on F.Silkscreen
+    @(127.3585 mm, 63.9700 mm): Reference field of C6
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(130.2070 mm, 61.8600 mm): Segment of L4 on F.Silkscreen
+    @(129.8700 mm, 61.0000 mm): Reference field of C16
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(127.3521 mm, 64.9700 mm): Reference field of C7
+    @(127.3585 mm, 63.9700 mm): Reference field of C6
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(127.3585 mm, 63.9700 mm): Reference field of C6
+    @(127.4591 mm, 64.1600 mm): Segment of C7 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(127.0660 mm, 67.3000 mm): Reference field of C5
+    @(126.8900 mm, 67.3900 mm): Segment of U1 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(127.3900 mm, 66.8900 mm): Segment of U1 on F.Silkscreen
+    @(127.0660 mm, 67.3000 mm): Reference field of C5
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(124.9677 mm, 66.9000 mm): Reference field of Y1
+    @(125.5360 mm, 67.1930 mm): Segment of C5 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(127.3521 mm, 64.9700 mm): Reference field of C7
+    @(127.2163 mm, 65.1555 mm): Segment of C1 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(127.3521 mm, 64.9700 mm): Reference field of C7
+    @(126.4963 mm, 65.1555 mm): Segment of C1 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(127.3521 mm, 64.9700 mm): Reference field of C7
+    @(128.0263 mm, 65.2625 mm): Reference field of C1
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(129.3000 mm, 60.1425 mm): Segment of AE1 on F.Silkscreen
+    @(129.8700 mm, 61.0000 mm): Reference field of C16
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(129.9930 mm, 60.1400 mm): Segment of L5 on F.Silkscreen
+    @(129.8700 mm, 61.0000 mm): Reference field of C16
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(129.9930 mm, 60.1400 mm): Segment of L5 on F.Silkscreen
+    @(129.3000 mm, 60.1425 mm): Segment of AE1 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(129.9930 mm, 60.8600 mm): Segment of L5 on F.Silkscreen
+    @(130.0000 mm, 61.0225 mm): Reference field of AE1
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(130.2070 mm, 61.1400 mm): Segment of L4 on F.Silkscreen
+    @(129.8700 mm, 61.0000 mm): Reference field of C16
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(129.9930 mm, 60.8600 mm): Segment of L5 on F.Silkscreen
+    @(129.8700 mm, 61.0000 mm): Reference field of C16
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(126.9000 mm, 73.6000 mm): Polygon of U1 on F.Silkscreen
+    @(127.1122 mm, 73.6946 mm): Reference field of C8
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(127.1122 mm, 73.6946 mm): Reference field of C8
+    @(126.8900 mm, 72.6100 mm): Segment of U1 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(125.6000 mm, 70.0000 mm): Reference field of U1
+    @(125.1225 mm, 69.8438 mm): Segment of C9 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(125.6000 mm, 70.0000 mm): Reference field of U1
+    @(126.1425 mm, 69.8438 mm): Segment of C9 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(124.6397 mm, 69.8553 mm): Segment of L2 on F.Silkscreen
+    @(124.2025 mm, 69.7038 mm): Reference field of C9
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(124.2025 mm, 69.7038 mm): Reference field of C9
+    @(123.6197 mm, 69.8553 mm): Segment of L2 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(132.9463 mm, 71.8829 mm): Reference field of R1
+    @(133.1100 mm, 72.6100 mm): Segment of U1 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(134.5000 mm, 72.3300 mm): Reference field of C10
+    @(132.9463 mm, 71.8829 mm): Reference field of R1
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(134.5000 mm, 72.3300 mm): Reference field of C10
+    @(133.7563 mm, 71.9899 mm): Segment of R1 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(134.5000 mm, 72.3300 mm): Reference field of C10
+    @(134.4763 mm, 71.9899 mm): Segment of R1 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(128.2798 mm, 72.9069 mm): Reference field of C4
+    @(127.1122 mm, 73.6946 mm): Reference field of C8
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(134.8905 mm, 75.3268 mm): Reference field of C12
+    @(133.8742 mm, 75.4968 mm): Pad 2 [Net-(R2-Pad2)] of R2 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(134.5000 mm, 75.6687 mm): Reference field of C11
+    @(133.8742 mm, 75.4968 mm): Pad 2 [Net-(R2-Pad2)] of R2 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(134.8905 mm, 75.3268 mm): Reference field of C12
+    @(134.0200 mm, 74.4987 mm): Pad 2 [GND] of C11 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(134.5000 mm, 75.6687 mm): Reference field of C11
+    @(134.8342 mm, 75.4968 mm): Pad 1 [/MCU/BTN_WAKE] of R2 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(134.8905 mm, 75.3268 mm): Reference field of C12
+    @(134.8342 mm, 75.4968 mm): Pad 1 [/MCU/BTN_WAKE] of R2 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(134.8905 mm, 75.3268 mm): Reference field of C12
+    @(134.9800 mm, 74.4987 mm): Pad 1 [/MCU/BTN_WAKE] of C11 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(134.3542 mm, 76.6668 mm): Reference field of R2
+    @(134.1155 mm, 76.7568 mm): Pad 1 [VDD_nRF] of C12 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(133.6000 mm, 79.0000 mm): Reference field of SW1
+    @(134.0500 mm, 78.5625 mm): Pad 2 [VDD_nRF] of Q1 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(129.8700 mm, 61.0000 mm): Reference field of C16
+    @(129.6179 mm, 62.5000 mm): Pad 2 [GND] of C15 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(130.1000 mm, 62.6700 mm): Reference field of L4
+    @(130.5779 mm, 62.5000 mm): Pad 1 [Net-(C15-~-Pad1)] of C15 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(130.0979 mm, 63.6700 mm): Reference field of C15
+    @(130.5685 mm, 63.5200 mm): Pad 1 [Net-(C15-~-Pad1)] of L1 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(130.0000 mm, 61.0225 mm): Reference field of AE1
+    @(128.7000 mm, 61.4800 mm): Pad 2 [GND] of C16 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(129.8700 mm, 61.0000 mm): Reference field of C16
+    @(129.6200 mm, 61.5000 mm): Pad 2 [GND] of L4 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(130.0000 mm, 61.0225 mm): Reference field of AE1
+    @(128.7000 mm, 60.5200 mm): Pad 1 [Net-(AE1-FEED)] of C16 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(130.0000 mm, 61.0225 mm): Reference field of AE1
+    @(129.6200 mm, 61.5000 mm): Pad 2 [GND] of L4 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(127.3585 mm, 63.9700 mm): Reference field of C6
+    @(126.8721 mm, 63.8000 mm): Pad 2 [GND] of C7 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(127.3585 mm, 63.9700 mm): Reference field of C6
+    @(127.8321 mm, 63.8000 mm): Pad 1 [/MCU/DEC3] of C7 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(130.0000 mm, 61.0225 mm): Reference field of AE1
+    @(130.5800 mm, 61.5000 mm): Pad 1 [Net-(C15-~-Pad1)] of L4 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(129.8700 mm, 61.0000 mm): Reference field of C16
+    @(130.5800 mm, 61.5000 mm): Pad 1 [Net-(C15-~-Pad1)] of L4 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(130.1000 mm, 62.6700 mm): Reference field of L4
+    @(129.6179 mm, 62.5000 mm): Pad 2 [GND] of C15 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(127.0660 mm, 67.3000 mm): Reference field of C5
+    @(127.0750 mm, 67.8000 mm): Pad 37 [unconnected-(U1-P0.25-Pad37)] of U1 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(127.0660 mm, 67.3000 mm): Reference field of C5
+    @(127.0750 mm, 68.2000 mm): Pad 38 [unconnected-(U1-P0.26-Pad38)] of U1 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(127.3521 mm, 64.9700 mm): Reference field of C7
+    @(126.8563 mm, 64.7825 mm): Pad 1 [/MCU/XC1] of C1 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(127.3521 mm, 64.9700 mm): Reference field of C7
+    @(126.8563 mm, 65.7425 mm): Pad 2 [GND] of C1 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(129.8700 mm, 61.0000 mm): Reference field of C16
+    @(129.6200 mm, 60.5000 mm): Pad 1 [Net-(AE1-FEED)] of L5 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(130.0000 mm, 61.0225 mm): Reference field of AE1
+    @(130.5800 mm, 60.5000 mm): Pad 2 [Net-(C15-~-Pad1)] of L5 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(129.3000 mm, 60.1425 mm): Segment of AE1 on F.Silkscreen
+    @(129.6200 mm, 60.5000 mm): Pad 1 [Net-(AE1-FEED)] of L5 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(129.3000 mm, 60.1425 mm): Segment of AE1 on F.Silkscreen
+    @(130.5800 mm, 60.5000 mm): Pad 2 [Net-(C15-~-Pad1)] of L5 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(129.8700 mm, 61.0000 mm): Reference field of C16
+    @(130.5800 mm, 60.5000 mm): Pad 2 [Net-(C15-~-Pad1)] of L5 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(130.0000 mm, 61.0225 mm): Reference field of AE1
+    @(129.6200 mm, 60.5000 mm): Pad 1 [Net-(AE1-FEED)] of L5 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(125.1854 mm, 72.8692 mm): Reference field of L3
+    @(125.6822 mm, 72.9196 mm): Pad 1 [VDD_nRF] of C8 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(124.2025 mm, 69.7038 mm): Reference field of C9
+    @(124.1297 mm, 70.4903 mm): Pad 1 [Net-(L2-Pad1)] of L2 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(125.6000 mm, 70.0000 mm): Reference field of U1
+    @(125.6325 mm, 70.4788 mm): Pad 1 [/MCU/DEC4] of C9 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(125.6000 mm, 70.0000 mm): Reference field of U1
+    @(125.6325 mm, 68.9288 mm): Pad 2 [GND] of C9 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(124.2025 mm, 69.7038 mm): Reference field of C9
+    @(124.1297 mm, 68.9403 mm): Pad 2 [/MCU/DEC4] of L2 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(132.9463 mm, 71.8829 mm): Reference field of R1
+    @(132.9250 mm, 72.2000 mm): Pad 13 [VDD_nRF] of U1 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(132.9463 mm, 71.8829 mm): Reference field of R1
+    @(132.9250 mm, 71.4000 mm): Pad 15 [/MCU/BTN_WAKE] of U1 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(132.9463 mm, 71.8829 mm): Reference field of R1
+    @(132.9250 mm, 71.8000 mm): Pad 14 [unconnected-(U1-P0.11-Pad14)] of U1 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(134.5000 mm, 72.3300 mm): Reference field of C10
+    @(134.1163 mm, 72.3629 mm): Pad 1 [VDD_nRF] of R1 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(134.5000 mm, 72.3300 mm): Reference field of C10
+    @(132.9250 mm, 72.2000 mm): Pad 13 [VDD_nRF] of U1 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(134.5000 mm, 72.3300 mm): Reference field of C10
+    @(132.9250 mm, 71.8000 mm): Pad 14 [unconnected-(U1-P0.11-Pad14)] of U1 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(128.2798 mm, 72.9069 mm): Reference field of C4
+    @(128.2000 mm, 72.9250 mm): Pad 2 [unconnected-(U1-P0.00/XL1-Pad2)] of U1 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(128.2798 mm, 72.9069 mm): Reference field of C4
+    @(127.8000 mm, 72.9250 mm): Pad 1 [/MCU/DEC1] of U1 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(128.2798 mm, 72.9069 mm): Reference field of C4
+    @(130.0000 mm, 70.0000 mm): Pad 49 [GND] of U1 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(128.2798 mm, 72.9069 mm): Reference field of C4
+    @(129.0000 mm, 72.9250 mm): Pad 4 [unconnected-(U1-P0.02/AIN0-Pad4)] of U1 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(128.2798 mm, 72.9069 mm): Reference field of C4
+    @(128.6000 mm, 72.9250 mm): Pad 3 [unconnected-(U1-P0.01/XL2-Pad3)] of U1 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(127.1122 mm, 73.6946 mm): Reference field of C8
+    @(127.7998 mm, 74.0768 mm): Pad 1 [/MCU/DEC1] of C4 on F.Cu
+
+** Found 5 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(115.0000 mm, 55.0000 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+    @(150.3200 mm, 72.5400 mm): PTH pad 1 [GND] of TP5
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(147.2950 mm, 72.5400 mm): PTH pad 1 [VDD_nRF] of TP4
+    @(134.1163 mm, 72.3629 mm): Track [VDD_nRF] on F.Cu, length 0.0978 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(132.2000 mm, 67.0750 mm): Pad 25 [Net-(U1-SWDCLK)] of U1 on F.Cu
+    @(147.2950 mm, 70.0000 mm): PTH pad 1 [Net-(U1-SWDCLK)] of TP3
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(132.9250 mm, 67.8000 mm): Pad 24 [/MCU/RESET] of U1 on F.Cu
+    @(150.3200 mm, 67.4600 mm): PTH pad 1 [/MCU/RESET] of TP1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(131.8000 mm, 67.0750 mm): Pad 26 [Net-(U1-SWDIO)] of U1 on F.Cu
+    @(147.2950 mm, 67.4600 mm): PTH pad 1 [Net-(U1-SWDIO)] of TP2
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Thermal relief connection to zone incomplete
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

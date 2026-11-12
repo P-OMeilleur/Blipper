@@ -6,6 +6,52 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
+		(at 50.8 63.5)
+		(size 25.4 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "03cd3c4b-b1dc-48b3-be55-4f17137a6043")
+		(property "Sheetname" "Power"
+			(at 50.8 62.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 50.8 79.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Blipper"
+				(path "/757defb4-9b09-4a38-87ce-422aa8150480"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 101.6 63.5)
 		(size 35.56 25.4)
 		(exclude_from_sim no)

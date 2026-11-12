@@ -6,7 +6,7 @@
 	(descr "Inductor SMD 0402 (1005 Metric), IPC-7351 nominal")
 	(tags "inductor 0402")
 	(property "Reference" "REF**" (at 0 -1.17 0) (layer "F.SilkS") (uuid "72b725c1-08e1-4452-bed7-1cea00882f1e")
-		(effects (font (size 0.8 0.8) (thickness 0.12))))
+		(effects (font (size 1 1) (thickness 0.15))))
 	(property "Value" "L_0402_1005Metric" (at 0 1.17 0) (layer "F.Fab") (uuid "ecc689e8-fc8b-45a6-a347-1fe4308aa857")
 		(effects (font (size 0.8 0.8) (thickness 0.12))))
 	(property "Datasheet" "" (at 0 0 0) (layer "F.Fab") (hide yes) (uuid "22c3d83f-2df9-4adc-88f6-305a516d25c5")

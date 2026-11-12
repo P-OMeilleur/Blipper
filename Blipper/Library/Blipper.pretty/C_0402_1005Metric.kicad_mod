@@ -6,7 +6,7 @@
 	(descr "Capacitor SMD 0402 (1005 Metric), IPC-7351 nominal")
 	(tags "capacitor 0402")
 	(property "Reference" "REF**" (at 0 -1.17 0) (layer "F.SilkS") (uuid "8a63b2ca-d84c-481f-bdde-52786c058a73")
-		(effects (font (size 0.8 0.8) (thickness 0.12))))
+		(effects (font (size 1 1) (thickness 0.15))))
 	(property "Value" "C_0402_1005Metric" (at 0 1.17 0) (layer "F.Fab") (uuid "d1f8cfd0-e022-4c2a-91a1-75b4fbb336fe")
 		(effects (font (size 0.8 0.8) (thickness 0.12))))
 	(property "Datasheet" "" (at 0 0 0) (layer "F.Fab") (hide yes) (uuid "a3fbae73-1282-4735-acf9-74fac101bc27")
