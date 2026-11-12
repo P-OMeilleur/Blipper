@@ -1,0 +1,19 @@
+/*
+ * Copy this file to keys.h and fill in both values.
+ * keys.h is git-ignored: these keys are covered by the ANT license terms.
+ */
+#ifndef BLIPPER_KEYS_H__
+#define BLIPPER_KEYS_H__
+
+/* S340 SoftDevice license key.
+ * The evaluation key is in a comment near the top of the S340 nrf_sdm.h
+ * header (search for "ANT_LICENSE_KEY"). Non-commercial / evaluation use only. */
+#ifndef ANT_LICENSE_KEY
+#define ANT_LICENSE_KEY "xxxx-xxxx-xxxx-xxxx-xxxx-xxxx-xxxx-xxxx"
+#endif
+
+/* ANT+ network key (8 bytes). Free after registering as an ANT+ Adopter at
+ * https://www.thisisant.com/developer/ant-plus/ant-plus-basics/network-keys  */
+#define ANTPLUS_NETWORK_KEY { 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 }
+
+#endif
